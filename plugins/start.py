@@ -248,7 +248,7 @@ async def start_command(client: Client, message: Message):
             if USE_PAYMENT:
                 btn = [
                 [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=link),
-                InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ', url=TUT_VID)],
+                InlineKeyboardButton('ᴛᴜᴛᴏʀɪᴀʟ', url=TUT_VID)],
                 [InlineKeyboardButton("ʙᴜʏ ᴘʀɪᴍɪᴜᴍ", callback_data="buy_prem")]
                 ]
             else:
