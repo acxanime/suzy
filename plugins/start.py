@@ -218,12 +218,16 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⚡️ ᴀɴɪᴍᴇ', url='https://telegram.me/sitaratoons'),
-                    InlineKeyboardButton('🍁 ᴋᴅʀᴀᴍᴀ', url='https://t.me/+dAatIkcrgHs0OWY1')
+                    InlineKeyboardButton('ʜᴇɴᴛᴀɪ', url='https://t.me/+olpo9bJqkRs3NDA1'),
+                    InlineKeyboardButton('ᴄᴏʀɴʜᴜʙ', url='https://t.me/+czkLoFP_ncZiMmQ9')
                 ],
                 [
-                    InlineKeyboardButton('🍿 ᴀɴɪᴍᴇ ᴍᴏᴠɪᴇ 🚀', url='https://telegram.me/+Zutr-hfuNeFhNWM9')
+                    InlineKeyboardButton('ᴄᴏꜱᴘʟᴀʏ', url='https://t.me/+NXzyYEThxBk1ZWM1'),
+                    InlineKeyboardButton('ᴏɴʟʏꜰᴀɴꜱ', url='https://t.me/+rDFmZPQWIS9mYjhl')
                 ]
+                [
+                    InlineKeyboardButton('ᴊᴀᴘᴀɴᴇꜱᴇ', url='https://t.me/+fG1D7vERvF84NjA1')
+                [
             ]
         )
         await message.reply_photo(
