@@ -234,7 +234,7 @@ async def start_command(client: Client, message: Message):
             ),
             reply_markup=reply_markup#,
             #message_effect_id=5104841245755180586  # 🔥
-        )
+    
         )
         return
     if USE_SHORTLINK and (not U_S_E_P): 
@@ -316,7 +316,6 @@ async def not_joined(client: Client, message: Message):
     #message_effect_id=5104841245755180586  # Add the effect ID here
     
     )
-
 
 @Bot.on_message(filters.command('ch2l') & filters.private)
 async def gen_link_encoded(client: Bot, message: Message):
