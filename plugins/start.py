@@ -110,14 +110,14 @@ async def start_command(client: Client, message: Message):
                         pass
                 if (SECONDS == 0):
                     return
-                notification_msg = await message.reply(f"<b>🌺 <u>Notice</u> 🌺</b>\n\n<b>This file will be  deleted in {get_exp_time(SECONDS)}. Please save or forward it to your saved messages before it gets deleted.</b>")
+                notification_msg = await message.reply(f"<b>❗️ <u>IMPORTANT</u> ❗️</b>\n\n ⚠️ This Video / File Will Be Deleted In <b><u> {get_exp_time(SECONDS)}</u></b> 🫥 (Due To Copyright Issues).\n\n<b>📌 <i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>")
                 await asyncio.sleep(SECONDS)    
                 for snt_msg in snt_msgs:    
                     try:    
                         await snt_msg.delete()  
                     except: 
                         pass    
-                await notification_msg.edit("<b>Your file has been successfully deleted! 😼</b>")  
+                await notification_msg.edit("<b><i>Your Video / File Is Successfully Deleted ✅</i></b>")  
                 return
             if (U_S_E_P):
                 if verify_status['is_verified'] and VERIFY_EXPIRE < (time.time() - verify_status['verified_time']):
