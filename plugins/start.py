@@ -227,7 +227,7 @@ async def start_command(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton('ᴊᴀᴘᴀɴᴇꜱᴇ', url='https://t.me/+fG1D7vERvF84NjA1')
-                [
+                ]
             ]
         )
         await message.reply_photo(
