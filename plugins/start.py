@@ -224,7 +224,7 @@ async def start_command(client: Client, message: Message):
                 [
                     InlineKeyboardButton('ᴄᴏꜱᴘʟᴀʏ', url='https://t.me/+NXzyYEThxBk1ZWM1'),
                     InlineKeyboardButton('ᴏɴʟʏꜰᴀɴꜱ', url='https://t.me/+rDFmZPQWIS9mYjhl')
-                ]
+                ],
                 [
                     InlineKeyboardButton('ᴊᴀᴘᴀɴᴇꜱᴇ', url='https://t.me/+fG1D7vERvF84NjA1')
                 [
