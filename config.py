@@ -46,7 +46,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/eb7c8ae978695624
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
 #your start default command message.
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link. 💾")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello 💕 {mention} \n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\nᴄʜᴇᴄᴋ ᴏᴜᴛ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ʙᴇʟᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ!👇</b>")
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "Sitaratoons_Support_bot")
 #Time in seconds for message delete, put 0 to never delete
@@ -104,7 +104,7 @@ PRICE5 = os.environ.get("PRICE5", "1000 rs")
 
 
 #force message for joining the channel
-FORCE_MSG = os.environ.get("FORCE_MSG", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b> 🥺")
+FORCE_MSG = os.environ.get("FORCE_MSG", "<b>ʜᴇʟʟᴏ {mention} \nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ<b/> 🥺")
 #custom caption 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 #protected content so that no files can be sent from the bot to anyone. recommended False
