@@ -194,8 +194,8 @@ async def start_command(client: Client, message: Message):
                     link = await get_shortlink(SHORTLINK_API_URL, SHORTLINK_API_KEY,f'{newLink}')
                     if USE_PAYMENT:
                         btn = [
-                        [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 👆", url=link),
-                        InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 👆', url=TUT_VID)],
+                        [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=link),
+                        InlineKeyboardButton('ᴛᴜᴛᴏʀɪᴀʟ', url=TUT_VID)],
                         [InlineKeyboardButton("ʙᴜʏ ᴘʀɪᴍɪᴜᴍ", callback_data="buy_prem")]
                         ]
                     else:
