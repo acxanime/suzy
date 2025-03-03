@@ -104,7 +104,7 @@ PRICE5 = os.environ.get("PRICE5", "1000")
 
 
 #force message for joining the channel
-FORCE_MSG = os.environ.get("FORCE_MSG", "<b>ʜᴇʟʟᴏ {mention} \nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ<b/> 🥺")
+FORCE_MSG = os.environ.get("FORCE_MSG", "<b>ʜᴇʟʟᴏ {mention} \nᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ</b> 🥺")
 #custom caption 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 #protected content so that no files can be sent from the bot to anyone. recommended False
