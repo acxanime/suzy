@@ -232,9 +232,9 @@ async def start_command(client: Client, message: Message):
                 mention=message.from_user.mention,
                 id=message.from_user.id
             ),
-            reply_markup=reply_markup,
-            disable_web_page_preview=True,
-            quote=True
+            reply_markup=reply_markup#,
+            #message_effect_id=5104841245755180586  # 🔥
+        )
         )
         return
     if USE_SHORTLINK and (not U_S_E_P): 
@@ -311,10 +311,10 @@ async def not_joined(client: Client, message: Message):
         username=None if not message.from_user.username else '@' + message.from_user.username,
         mention=message.from_user.mention,
         id=message.from_user.id
-        ),
-        reply_markup=InlineKeyboardMarkup(buttons),
-        quote=True,
-        disable_web_page_preview=True
+    ),
+    reply_markup=InlineKeyboardMarkup(buttons)#,
+    #message_effect_id=5104841245755180586  # Add the effect ID here
+    
     )
 
 
