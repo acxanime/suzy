@@ -203,8 +203,7 @@ async def start_command(client: Client, message: Message):
                         [InlineKeyboardButton("Click Here 👆", url=link)],
                         [InlineKeyboardButton('How to open this link 👆', url=TUT_VID)]
                         ]
-                    await message.reply_photo(
-            photo=START_PIC (f"<b>⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ..</b>", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                    await message.reply (f"<b>⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ..</b>", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
                     return
     
     for i in range(1):
