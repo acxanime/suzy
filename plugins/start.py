@@ -194,16 +194,16 @@ async def start_command(client: Client, message: Message):
                     link = await get_shortlink(SHORTLINK_API_URL, SHORTLINK_API_KEY,f'{newLink}')
                     if USE_PAYMENT:
                         btn = [
-                        [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=link),
-                        InlineKeyboardButton('ᴛᴜᴛᴏʀɪᴀʟ', url=TUT_VID)],
-                        [InlineKeyboardButton("ʙᴜʏ ᴘʀɪᴍɪᴜᴍ", callback_data="buy_prem")]
+                        [InlineKeyboardButton("•ᴏᴘᴇɴ ʟɪɴᴋ", url=link),
+                        InlineKeyboardButton('ᴛᴜᴛᴏʀɪᴀʟ•', url=TUT_VID)],
+                        [InlineKeyboardButton("•ʙᴜʏ ᴘʀɪᴍɪᴜᴍ•", callback_data="buy_prem")]
                         ]
                     else:
                         btn = [
                         [InlineKeyboardButton("Click Here 👆", url=link)],
                         [InlineKeyboardButton('How to open this link 👆', url=TUT_VID)]
                         ]
-                    await message.reply (f"<b>⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ..</b>", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                    await message.reply (f"<b>⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴏᴘᴇɴ ʟɪɴᴋ ʙᴜᴛᴛᴏɴ..</b>", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
                     return
     
     for i in range(1):
