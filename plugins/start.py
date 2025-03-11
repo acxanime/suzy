@@ -218,12 +218,12 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Kᴅʀᴀᴍᴀ', url='https://t.me/+dAatIkcrgHs0OWY1'),
-                    InlineKeyboardButton('Aɴɪᴍᴇ', url='https://telegram.me/sitaratoons')
+                    InlineKeyboardButton('🍁 K Dʀᴀᴍᴀ', url='https://t.me/+dAatIkcrgHs0OWY1'),
+                    InlineKeyboardButton('⚡ Aɴɪᴍᴇ ', url='https://telegram.me/sitaratoons')
                 ],
                 [
-                    InlineKeyboardButton('Aɴɪᴍᴇ Mᴏᴠɪᴇ', url='https://telegram.me/+Zutr-hfuNeFhNWM9'),
-                    InlineKeyboardButton('Oᴜʀ Bᴀꜱᴇ', url='https://t.me/New_Anime_Hindi_dub_ST')
+                    InlineKeyboardButton('🤩 Aɴɪᴍᴇ Mᴏᴠɪᴇ', url='https://telegram.me/+Zutr-hfuNeFhNWM9'),
+                    InlineKeyboardButton('🌐 Oᴜʀ Bᴀꜱᴇ', url='https://t.me/New_Anime_Hindi_dub_ST')
                 ]        
             ]
         )
