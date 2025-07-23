@@ -61,12 +61,12 @@ https://adrinolinks.in/
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
-USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "FALSE") == "TRUE" else False 
+USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "True") == "True" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "api.shareus.io")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "arlinks.in")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "pb8UNiXZd8bW4hUWszTMdQkwqhB3")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "b12d324481cefcfe34f8802dc8dab8a0a640d370")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
@@ -82,7 +82,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
 
 #Payment to remove the token system
 #put TRUE if you want this feature
-USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "False") == "True" else False) and (USE_SHORTLINK) else False
+USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "True") == "True" else False) and (USE_SHORTLINK) else False
 #UPI ID
 UPI_ID = os.environ.get("UPI_ID", "acxanime@upi")
 #UPI QR CODE IMAGE
